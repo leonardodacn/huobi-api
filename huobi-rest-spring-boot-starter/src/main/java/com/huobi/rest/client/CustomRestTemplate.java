@@ -1,4 +1,4 @@
-package com.pengttyy.rest.client;
+package com.huobi.rest.client;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.HmacUtils;

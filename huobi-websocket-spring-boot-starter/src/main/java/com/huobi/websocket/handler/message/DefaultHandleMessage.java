@@ -1,13 +1,14 @@
-package com.pengttyy.websocket.handler.message;
+package com.huobi.websocket.handler.message;
 
-import com.pengttyy.websocket.entity.Kline;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.huobi.websocket.entity.Kline;
 
 /**
  * 默认消息处理，自定义处理时扩展AbstractHandleMessage类
  *
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 public class DefaultHandleMessage extends AbstractHandleMessage<Kline> {

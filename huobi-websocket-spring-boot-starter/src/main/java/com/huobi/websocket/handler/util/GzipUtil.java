@@ -1,4 +1,4 @@
-package com.pengttyy.websocket.handler.util;
+package com.huobi.websocket.handler.util;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
@@ -7,7 +7,7 @@ import java.util.zip.GZIPInputStream;
 import java.util.zip.GZIPOutputStream;
 
 /**
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 public final class GzipUtil {

@@ -1,6 +1,5 @@
-package com.pengttyy.rest;
+package com.huobi.rest;
 
-import com.pengttyy.rest.interceptor.AuthenticationInterceptor;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.client.RestTemplateBuilder;
@@ -8,8 +7,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.DefaultUriTemplateHandler;
 
+import com.huobi.rest.interceptor.AuthenticationInterceptor;
+
 /**
- * @Author pengttyy pengttyy@gmail.com
+ * @Author kyle.zeng
  */
 @SpringBootApplication
 public class HuobiRestApplication {
@@ -28,8 +29,6 @@ public class HuobiRestApplication {
     public AuthenticationInterceptor authenticationInterceptor() {
         return new AuthenticationInterceptor();
     }
-
-
 
     public static void main(String[] args) {
         SpringApplication.run(HuobiRestApplication.class, args);

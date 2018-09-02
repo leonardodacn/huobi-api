@@ -1,18 +1,19 @@
-package com.pengttyy.websocket.handler;
+package com.huobi.websocket.handler;
 
 
-import com.pengttyy.websocket.handler.message.IHandleMessage;
-import com.pengttyy.websocket.handler.util.GzipUtil;
 import org.springframework.web.socket.BinaryMessage;
 import org.springframework.web.socket.CloseStatus;
 import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.AbstractWebSocketHandler;
 
+import com.huobi.websocket.handler.message.IHandleMessage;
+import com.huobi.websocket.handler.util.GzipUtil;
+
 import java.nio.ByteBuffer;
 
 /**
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 public class DefaultHuobiWebSocketHandler extends AbstractWebSocketHandler {

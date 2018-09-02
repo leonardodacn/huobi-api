@@ -1,7 +1,7 @@
-package com.pengttyy.websocket.handler.message;
+package com.huobi.websocket.handler.message;
 
 /**
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 public interface IHandleMessage {

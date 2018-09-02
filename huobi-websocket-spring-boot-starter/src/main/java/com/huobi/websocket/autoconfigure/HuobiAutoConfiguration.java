@@ -1,9 +1,5 @@
-package com.pengttyy.websocket.autoconfigure;
+package com.huobi.websocket.autoconfigure;
 
-import com.pengttyy.websocket.entity.Kline;
-import com.pengttyy.websocket.handler.DefaultHuobiWebSocketHandler;
-import com.pengttyy.websocket.handler.message.DefaultHandleMessage;
-import com.pengttyy.websocket.handler.message.IHandleMessage;
 import org.springframework.boot.autoconfigure.AutoConfigureAfter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.websocket.WebSocketAutoConfiguration;
@@ -13,8 +9,13 @@ import org.springframework.web.socket.WebSocketHandler;
 import org.springframework.web.socket.client.WebSocketConnectionManager;
 import org.springframework.web.socket.client.standard.StandardWebSocketClient;
 
+import com.huobi.websocket.entity.Kline;
+import com.huobi.websocket.handler.DefaultHuobiWebSocketHandler;
+import com.huobi.websocket.handler.message.DefaultHandleMessage;
+import com.huobi.websocket.handler.message.IHandleMessage;
+
 /**
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 @Configuration

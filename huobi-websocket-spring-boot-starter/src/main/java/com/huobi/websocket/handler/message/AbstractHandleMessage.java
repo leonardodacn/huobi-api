@@ -1,9 +1,10 @@
-package com.pengttyy.websocket.handler.message;
+package com.huobi.websocket.handler.message;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.pengttyy.websocket.entity.SubscribeFailure;
-import com.pengttyy.websocket.entity.SubscribeSuccess;
+import com.huobi.websocket.entity.SubscribeFailure;
+import com.huobi.websocket.entity.SubscribeSuccess;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,7 @@ import java.io.IOException;
 /**
  * 订阅数据处理类，对服务器返回的数据进行处理
  *
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 public abstract class AbstractHandleMessage<T> implements IHandleMessage {

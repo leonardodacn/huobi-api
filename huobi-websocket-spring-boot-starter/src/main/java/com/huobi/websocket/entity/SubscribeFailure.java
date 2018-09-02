@@ -1,9 +1,9 @@
-package com.pengttyy.websocket.entity;
+package com.huobi.websocket.entity;
 
 import lombok.Data;
 
 /**
- * @author pengttyy pengttyy@gmail.com
+ * @author kyle.zeng
  * @date 2017/12/28 15:21
  */
 @Data

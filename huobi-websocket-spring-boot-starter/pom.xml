@@ -9,8 +9,8 @@
     <description>huobi websocket接口</description>
 
     <parent>
-        <groupId>com.pengttyy</groupId>
-        <artifactId>huobi-api</artifactId>
+        <groupId>com.sea</groupId>
+        <artifactId>auto-exchange</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>

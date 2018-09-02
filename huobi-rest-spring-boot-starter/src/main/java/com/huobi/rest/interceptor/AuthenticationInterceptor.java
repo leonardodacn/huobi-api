@@ -1,4 +1,4 @@
-package com.pengttyy.rest.interceptor;
+package com.huobi.rest.interceptor;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
